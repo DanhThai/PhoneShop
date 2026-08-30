@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Phone Shop</title>
+<body >
+    <h1>Phone Shop</h1>
+    <p>Chào mừng bạn đến với cửa hàng điện thoại của chúng tôi!
+    </p>
+    <nav>
+        <a href="#">Trang chủ</a> |
+        <a href="#">Sản phẩm</a> |
+        <a href="#">Bảng giá</a>
+        <a href="#">Đặt hàng</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+</header>
+<hr>
+<main>
+<!-- Giới thiệu về cửa hàng -->
+ <section>
+    <h2>Cửa hàng điện thoại chất lượng cao!</h2>
+    <p>
+        Chúng tôi cung cấp các dòng điện thoại mới nhất với chất lượng tốt nhất và giá cả cạnh tranh.
+    </p>
+<img 
+src="hinhanh/iphone17.webp"
+alt="iphone 17">
+<img
+src="hinhanh/samsung-galaxy-s23.webp"
+alt="samsung galaxy s23">
+<img
+src="hinhanh/iphone 17promax.webp"
+alt="iphone 17 pro max">
+</section>
+<hr>
+<!-- Danh sách sản phẩm -->
+<section>
+    <h2>Sản phẩm nổi bật</h2>
+    <article>
+        <h3>iPhone 17</h3>
+        <p>Điện thoại thông minh với hiệu năng mạnh mẽ và camera chất lượng cao.</p>
+        <p>Giá: 24.990.000 VND</p>
+        <button>Đặt hàng</button>
+    </article>
+    <article>
+        <h3>Samsung Galaxy S23</h3>
+        <p>Điện thoại Android cao cấp với màn hình sắc nét và hiệu năng ổn định.</p>
+        <p>Giá: 22.990.000 VND</p>
+        <button>Đặt hàng</button>
+    </article>
+    <article>
+        <h3>iPhone 17 Pro Max</h3>
+        <p>Phiên bản cao cấp của iPhone với camera nâng cấp và hiệu năng vượt trội.</p>
+        <p>Giá: 34.490.000 VND</p>
+        <button>Đặt hàng</button>
+    </article>
+</section>
+<!-- ĐẶT HÀNG -->
+<section>
+    <h2>Đặt hàng</h2>
+    <form action="#" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="product">Chọn sản phẩm:</label>
+        <select id="product" name="product" required>
+            <option value="">--Chọn sản phẩm--</option>
+            <option value="iphone17">iPhone 17</option>
+            <option value="samsung-galaxy-s23">Samsung Galaxy S23</option>
+            <option value="iphone-17-promax">iPhone 17 Pro Max</option>
+        </select><br><br>
+
+        <button type="submit">Đặt hàng</button>
+        <p>
+            <label for="quantity">số lượng:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+        </p>
+        <p>
+            <label for="address">Địa chỉ giao hàng:</label>
+            <input type="text" id="address" name="address" required>  
+        </p>
+        <p>
+            <label for="note">Ghi chú:</label>
+            <input type="text" id="note" name="note">
+        </p>
+        <p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">Tôi đồng ý với các điều khoản và điều kiện.</
+        </p>
+        <p>
+            <input type="submit" value="Đặt hàng">
+        </p>
+    </form>
+</section>
+<!-- THÔNG TIN THÊM -->
+ <aside>
+    <h2>Thông tin thêm</h2>
+    <h3>Danh mục sản phẩm</h3>
+    <ul>
+        <li><a href="#">Điện thoại iPhone</a></li>
+        <li><a href="#">Điện thoại Samsung</a></li>
+        <li><a href="#">Điện thoại Xiaomi</a></li>
+        <li><a href="#">Điện thoại Oppo</a></li>
+    </ul>
+    <h3>Cách mua hàng</h3>
+    <ol>
+        <li>Chọn sản phẩm bạn muốn mua</li>
+        <li>Click vào nút "Đặt hàng"</li>
+        <li>Điền thông tin giao hàng và thanh toán</li>
+        <li>Chờ nhận hàng</li>
+    </ol>
+    <h3>Thông tin cửa hàng</h3>
+    <dl>
+        <dt>Thời gian làm việc:</dt>
+        <dd>8:00 AM - 22:00 PM</dd>
+    </dl>
+    <dl>
+        <dl>Hình thức</dl>
+        <dt>Giao hàng:</dt>
+        <dd>Miễn phí giao hàng trong nội thành</dd>
+    </dl>
+    <!-- BẢNG PHÍ GIAO HÀNG-->
+     <table>
+        <thead>
+            <tr>
+                <th>Vùng</th>
+                <th>Phí giao hàng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nội thành</td>
+                <td>Miễn phí</td>
+            </tr>
+            <tr>
+                <td>Ngoại thành</td>
+                <td>20.000 VND</td>
+            </tr>
+            <tr>
+                <td>Tỉnh khác</td>
+                <td>50.000 VND</td>
+            </tr>
+        </tbody>    
+     </table>
+</aside>
+<!-- LIÊN KẾT NGOÀI -->
+ <section>
+    <h2>Liên kết ngoài</h2>
+    <ul>
+        <li><a href="https://www.apple.com/vn/">Trang web chính thức của Apple</a></li>
+        <li><a href="https://www.samsung.com/vn/">Trang web chính thức của Samsung</a></li>
+        <li><a href="https://www.xiaomi.com/vn/">Trang web chính thức của Xiaomi</a></li>
+        <li><a href="https://www.oppo.com/vn/">Trang web chính thức của Oppo</a></li>
+    </ul>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <h2>PHONESHOP</h2>
+    <p>Cửa hàng điện thoại uy tín tại Việt Nam</p>
+    <h3>Hỗ trợ khách hàng</h3>
+    <ul>
+        <li><a href="#">Chính sách bảo hành</a></li>
+        <li><a href="#">Chính sách đổi trả</a></li>
+        <li><a href="#">Hướng dẫn mua hàng</a></li>
+        <li><a href="#">Liên hệ hỗ trợ</a></li>
+    </ul>
+    <h3>Liên hệ</h3>
+    <p>Điện thoại: 0352178281</p>
+    <p>Email: 24107820@st.phenikaa-uni.edu.vn</p>
+</footer>
+</body>
+</html>
